@@ -82,6 +82,7 @@ def userquery(input, ftype, hweather = True, whistory = 240, fweather = True, hi
     if cy == True:
         cyinput = cyformat(setofinputs)
         cropyield(cyinput)
+    # collects soil, 
     if cs == True:
         csinput = csformat(csinputss)
         cropstage(csinput)
